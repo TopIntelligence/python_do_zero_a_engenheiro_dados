@@ -3,14 +3,17 @@
 # Cria lista com 4 elementos
 info=['Aula','Top','Intelligence','Academy']
 
-# Aplica ordenação
-info.sort()
-
 # Imprime na tela
-print(info)
+print('Lista inicial',info)
 
 # Altera valor do primeiro registro de índice zero
-info[0]='Aprendendo Python';
+info[0]='Aprendendo Python'
 
 # Imprime lista atualizada
-print(info)
+print('\nLista alterada',info)
+
+# Ordena lista com método sort
+info.sort()
+
+# Aplica ordenação
+print('\nLista ordenada',info)
