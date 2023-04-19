@@ -1,4 +1,8 @@
 # https://www.anaconda.com/
+# Verifica o caminho do executável
+import sys
+print(sys.executable)
+# C:\Users\jean.machado\AppData\Local\Programs\Python\Python311\python.exe
 
 # Cria lista com 4 elementos
 info=['Aula','Top','Intelligence','Academy']
