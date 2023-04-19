@@ -1,9 +1,16 @@
-# https://www.anaconda.com/
-# Verifica o caminho do executável
-import sys
-print(sys.executable)
-# C:\Users\jean.machado\AppData\Local\Programs\Python\Python311\python.exe
-
+# Top Intelligence Academy
+## Aula 02: Ferramentas de desenvolvimento - IDEs
+""" 
+https://www.anaconda.com/
+https://jupyter.org/
+https://code.visualstudio.com/download
+https://www.jetbrains.com/pycharm/download
+https://www.spyder-ide.org/
+https://colab.research.google.com/
+https://replit.com/
+https://github.com/features/codespaces
+"""
+### Iniciando códigos básicos para testar o ambiente
 # Cria lista com 4 elementos
 info=['Aula','Top','Intelligence','Academy']
 
