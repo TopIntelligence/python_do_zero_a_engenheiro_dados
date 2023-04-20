@@ -8,17 +8,20 @@ import seaborn as sns
 Url do arquivo no Github:
 https://github.com/TopIntelligence/python_do_zero_a_engenheiro_dados/blob/main/datasets/mtcars.csv
 
-Atenção:
+Atenção ao copiar do Github, faça o seguinte ajuste:
 1- Substitua github.com por raw.githubusercontent.com
 2 - Remova a palabra /blob
 '''
 
-url = 'D:\\Top_Intelligence\\Codigos_GitHub\\python_do_zero_a_engenheiro_dados\\datasets\\mtcars.csv' # arquivo local
-#url = 'D:\Top_Intelligence\Codigos_GitHub\python_do_zero_a_engenheiro_dados\datasets\mtcars.csv' # arquivo local
+url = 'D:\Top_Intelligence\Codigos_GitHub\python_do_zero_a_engenheiro_dados\datasets\mtcars.csv' # arquivo local
+#url = 'D:\\Top_Intelligence\\Codigos_GitHub\\python_do_zero_a_engenheiro_dados\\datasets\\mtcars.csv' # arquivo local
 #url = 'D:/Top_Intelligence/Codigos_GitHub/python_do_zero_a_engenheiro_dados/datasets/mtcars.csv' # arquivo local
 
 #url = 'https://raw.githubusercontent.com/TopIntelligence/python_do_zero_a_engenheiro_dados/main/datasets/mtcars.csv' # arquivo no Github
+
+#https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
 df = pd.read_csv(url,index_col=0) # Caso queira alguma coluna como index, informar qual através do parâmetro: index_col=0
+
 # Verifica dados iniciais
 df.head()
 
