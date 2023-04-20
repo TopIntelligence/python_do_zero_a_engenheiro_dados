@@ -1,6 +1,9 @@
 # Top Intelligence Academy
 ## Aula 02: Ferramentas de desenvolvimento - IDEs
 """ 
+https://github.com/TopIntelligence/python_do_zero_a_engenheiro_dados/blob/main/02_Ferramentas_Desenvolvimento_IDEs.py
+https://www.youtube.com/@Top.Intelligence
+https://www.instagram.com/top.intelligence/
 https://www.anaconda.com/
 https://jupyter.org/
 https://code.visualstudio.com/download
